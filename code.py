@@ -32,6 +32,9 @@ def node(state: chat):
 
 checkpointer = MemorySaver()
 
+
+
+
 graph = StateGraph(chat)
 
 graph.add_node('node',node)
